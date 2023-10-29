@@ -1,0 +1,41 @@
+<div class="lista-input">
+    <h1>Qual seu nome?</h1>
+    <input type="text" id="nome-input" placeholder="Nome" [(ngModel)]="nome">
+    <h1>Pra começar,<br> digite a idade que você quer casar 👇</h1>
+    <input type="number" id="idade" placeholder="Idade" [(ngModel)]="idade">
+
+
+    <h1 id="titulo-casamento">Escreva 3 pessoas que você gostaria de casar</h1>
+    <input type="text" id="pessoa1" placeholder="Primeirx..." [(ngModel)]="pessoa1">
+    <input type="text" id="pessoa2" placeholder="Segundx..." [(ngModel)]="pessoa2">
+    <input type="text" id="pessoa3" placeholder="Terceirx..." [(ngModel)]="pessoa3">
+    
+    <h1 id="titulo-lugares">...Agora diga 3 lugares para morar</h1>
+    <input type="text" id="lugar1" placeholder="lugar 1" [(ngModel)]="lugar1">
+    <input type="text" id="lugar2" placeholder="lugar 2" [(ngModel)]="lugar2">
+    <input type="text" id="lugar3" placeholder="lugar 3" [(ngModel)]="lugar3">
+    
+
+    <button id="btn" (click)="remove()">Prever futuro...</button>
+    <br>
+    <br>
+    <h2 id="enrolando"></h2>
+    <h2 id="lugarF"></h2>
+    <h2 id="filhoF"></h2>
+    <h2 id="dinheiroF"></h2>
+    <h2 id="casamentoF"></h2>
+
+</div>
+
+<div id="card" *ngIf="mostraCard">
+    <p>{{nome}} vai se casar com: {{cr}}</p>
+    <p>vai ser: {{dr}}</p>
+    <p>ter {{fr}} filho(s)</p>
+    <p>e morar em: {{lr}}</p>
+</div>
+
+
+<footer>
+    <h2>Feito por Orleandro - 3.302 | Ferb</h2>
+</footer>   
+

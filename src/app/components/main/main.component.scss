@@ -1,0 +1,110 @@
+
+
+h1{
+    margin: 5dvw 2dvw 5dvh 2dvw;
+}
+
+button{
+    margin-top: 13dvh;
+    background-color: black;
+    color: white;
+    border: none;
+
+    font-size: 1.5rem;
+
+    padding: 1rem;
+    width: 50dvw;
+    height: 10dvh;
+
+    border-radius: 5rem;
+
+    -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 10px 10px rgba(0,0,0,0); 
+    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 10px 10px rgba(0,0,0,0);
+
+
+
+}
+
+#nome-input{
+    margin-bottom: 10dvh;
+}
+
+#idade{
+    margin: 1dvh 0 15dvh 0;
+}
+
+input{
+
+    color: white;
+    border: none;
+    padding: 2rem;
+
+    background-color: #000;
+
+    font-size: 1.3rem;
+
+    width: 60dvw;
+    height: 7dvw;
+
+    border-radius: 5rem;
+
+    border: 2px solid rgb(0, 104, 104);
+    
+    margin-top: 7dvw;
+
+    -webkit-box-shadow: 0px 0px 19px 2px #5F0DFF; 
+    box-shadow: 0px 0px 19px 2px #5F0DFF;
+
+}
+
+
+input:focus{
+    transition: 0.2s ease;
+    border: 2px solid aqua;
+
+    -webkit-box-shadow: 0px 0px 19px 7px #0d45ff; 
+    box-shadow: 0px 0px 19px 7px #0d45ff;
+}
+
+.lista-input{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo-casamento{
+    margin-bottom: 1dvh;
+    margin-top: 10dvh;
+}
+
+#titulo-lugares{
+    margin-bottom: 1dvh;
+    margin-top: 10dvh;
+}
+
+
+#card{
+    background-color: #5a2869;
+    padding: 2dvh;
+    border-radius: 2rem;
+
+    font-weight: 700;
+    font-size: 2dvh;
+    
+}
+
+footer{
+    margin-top: 10dvh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20dvh;
+
+    background: purple;
+    background: -moz-linear-gradient(top, rgb(66, 0, 128) 0%, #000 0%, rgb(66, 0, 128) 100%);
+    background: -webkit-linear-gradient(top, rgb(66, 0, 128) 0%, #000 0%, rgb(66, 0, 128) 100%);
+    background: linear-gradient(to bottom, rgb(66, 0, 128) 0%, #000 0%, rgb(66, 0, 128) 100%);
+}
